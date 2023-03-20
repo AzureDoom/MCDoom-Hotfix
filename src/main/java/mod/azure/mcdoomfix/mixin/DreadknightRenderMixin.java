@@ -19,7 +19,7 @@ public abstract class DreadknightRenderMixin extends GeoEntityRenderer {
 		super(renderManager, modelProvider);
 	}
 
-	@Overwrite
+	@Overwrite(remap=false)
 	public void renderRecursively(GeoBone bone, MatrixStack stack, IVertexBuilder bufferIn, int packedLightIn,
 			int packedOverlayIn, float red, float green, float blue, float alpha) {
 		super.renderRecursively(bone, stack, bufferIn, packedLightIn, packedOverlayIn, red, green, blue, alpha);
