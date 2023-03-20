@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "mod.azure.mcdoomfix.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"refmap": "mcdoomfix.refmap.json",
+	"mixins": [
+	],
+	"client": [
+		"DreadknightRenderMixin"
+	],
+	"minVersion": "0.8"
+}

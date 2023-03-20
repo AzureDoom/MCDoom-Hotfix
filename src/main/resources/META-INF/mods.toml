@@ -1,0 +1,29 @@
+modLoader="javafml" 
+loaderVersion="[36,)" 
+license="MIT"
+[[mods]] 
+modId="mcdoomfix"
+version="${file.jarVersion}" 
+displayName="MCDoom Fix"
+authors="AzureDoom" #optional
+description='''
+This is a mixin level fix for MCDoom Forge 1.16.5's Dreadknight crashing when rendering and the configs not loading early enough for changes. 
+'''
+[[dependencies.mcdoomfix]]
+    modId="forge" 
+    mandatory=true 
+    versionRange="[36,)" 
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mcdoomfix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mcdoomfix]]
+    modId="doom"
+    mandatory=true
+    versionRange="[4.0.34,)"
+    ordering="NONE"
+    side="BOTH"
